@@ -13,6 +13,10 @@
             android:name=".ExerciseActivity"
             android:exported="true" />
         <activity
+            android:name=".InstructionsActivity"
+            android:exported="true"
+            />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

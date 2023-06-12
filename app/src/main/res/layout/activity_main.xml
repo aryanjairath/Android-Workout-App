@@ -30,6 +30,27 @@
             android:text ="Start"
             android:layout_gravity="center"
             android:textColor ="@color/black"
+            android:background="#00000000"
+            android:textSize="@dimen/default_button_text_size"
+            android:textStyle="bold"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/openInstructions"
+        app:layout_constraintTop_toBottomOf="@+id/flStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="130px"
+        android:layout_height="220dp"
+        android:background="@drawable/item_color_accent_border_ripple_backgroundsq"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="Instructions/Tips"
+            android:layout_gravity="center"
+            android:textColor ="@color/white"
             android:textSize="@dimen/default_button_text_size"
             android:textStyle="bold"
             />

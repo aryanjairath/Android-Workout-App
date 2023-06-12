@@ -17,7 +17,11 @@ class MainActivity : AppCompatActivity() {
         binding?.flStart?.setOnClickListener{
             val intent = Intent(this, ExerciseActivity:: class.java)
             startActivity(intent)
-            
+        }
+        binding?.openInstructions?.setOnClickListener{
+            val intent = Intent(this, InstructionsActivity:: class.java)
+            startActivity(intent)
+
         }
     }
     override fun onDestroy(){
